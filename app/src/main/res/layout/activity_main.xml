@@ -9,10 +9,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="MISH!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIngresarProductos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Productos"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <Button
+        android:id="@+id/btnListaDeProductos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver tabla de Productos"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="570dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
