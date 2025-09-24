@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/basti/AndroidStudioProjects/NewSkates2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1955" />
+        <entry key="..\:/Users/basti/AndroidStudioProjects/NewSkates2/app/src/main/res/drawable/splash_screen.xml" value="0.1955" />
         <entry key="..\:/Users/basti/AndroidStudioProjects/NewSkates2/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/basti/AndroidStudioProjects/NewSkates2/app/src/main/res/layout/activity_ventana_de_productos.xml" value="0.2359375" />
       </map>
