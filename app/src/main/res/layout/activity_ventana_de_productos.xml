@@ -6,4 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".VentanaDeProductos">
 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/tableLayoutProductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+
+                <TableRow>
+                    <TextView
+                        android:text="ID"
+                        android:padding="8dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="Nombre"
+                        android:padding="8dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="Precio"
+                        android:padding="8dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="Stock"
+                        android:padding="8dp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

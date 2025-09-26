@@ -6,29 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MISH!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnIngresarProductos"
+        style="@style/SkateButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/btn_skate"
+        android:backgroundTint="@null"
         android:text="Ingresar Productos"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="504dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnListaDeProductos"
+        app:layout_constraintStart_toStartOf="@+id/btnListaDeProductos" />
 
     <Button
         android:id="@+id/btnListaDeProductos"
+        style="@style/SkateButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="133dp"
+        android:background="@drawable/btn_skate"
+        android:backgroundTint="@null"
         android:text="Ver tabla de Productos"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="570dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblTituloNewSkates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/titulo_gradiante"
+        android:text="NewSkates"
+        android:textAllCaps="false"
+        android:textColor="#D6D6D6"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
